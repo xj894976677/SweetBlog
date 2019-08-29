@@ -12,6 +12,7 @@
     <div>
         SweetBlog:
         <a href="/index">Home</a>
+        <a href="{{ url_for('explore') }}">Explore</a>
         {% if current_user.is_anonymous %}
             <a href="/login">Login</a>
         {% else %}

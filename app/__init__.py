@@ -7,7 +7,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 # 导入LoginManager 管理用户登陆状态
 from flask_login import LoginManager
-
+# 导入mail
+from
 
 # 创建app实例
 app = Flask(__name__)
@@ -23,4 +24,4 @@ login = LoginManager(app)
 login.login_view = 'login'
 
 # 引入路由文件与数据库模型类，放在最后防止与其文件循环引用
-from app import routes, models
+from app import routes, models, errors
