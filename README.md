@@ -1,4 +1,4 @@
-# blog_flask
+# SweetBlog
 此博客后台参考miguelgrinberg 在此附上其博客地址，感谢共享知识  [点击进入其博客](https://blog.miguelgrinberg.com/index)
 ## 涉及到的知识点
 1. Flask当中的模板使用
